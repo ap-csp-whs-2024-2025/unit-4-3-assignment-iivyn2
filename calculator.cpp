@@ -40,7 +40,32 @@ int main()
         std::cin >> num1 >> num2;
         std::cout << "Their sum is " << (num1 + num2) << std::endl;
       }
-    }
-  }
+      else
+      { 
+        If (use_input == 2) 
+        {
+         std::cout << "Enter two numbers\n";
+        std::cin >> num1 >> num2;
+        std::cout << "Their difference is " << (num1 - num2) << std::endl;
+      }
+      else 
+      {
+        If (user_input == 3)
+        {
+           std::cout << "Enter two numbers\n";
+        std::cin >> num1 >> num2;
+        std::cout << "Their product is " << (num1 * num2) << std::endl;
+        }
+      } 
+      else 
+      { 
+        If (user_input == 4)
+        { 
+           std::cout << "Enter two numbers\n";
+        std::cin >> numerator >> denominator;
+          {if (denominator == 0) 
+          { }}
+        }
+      }
   return 0;
 }
